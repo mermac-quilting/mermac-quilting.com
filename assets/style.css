@@ -91,11 +91,11 @@ body {
 
 @font-face {
     font-family: 'MermacTitle';
-    src: url('fonts/Lilly__-webfont.eot');
-    src: url('fonts/Lilly__-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Lilly__-webfont.woff') format('woff'),
-         url('fonts/Lilly__-webfont.ttf') format('truetype'),
-         url('fonts/Lilly__-webfont.svg#LillyRegular') format('svg');
+    src: url('Lilly__-webfont.eot');
+    src: url('Lilly__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lilly__-webfont.woff') format('woff'),
+         url('Lilly__-webfont.ttf') format('truetype'),
+         url('Lilly__-webfont.svg#LillyRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -783,7 +783,7 @@ form div {
 
 body.custom-background {
 	background-color: #ede8e1;
-	background-image: url('./assets/background-tile.png');
+	background-image: url('background-tile.png');
 	background-repeat: repeat;
 	background-position: top left;
 	background-attachment: scroll;
@@ -864,7 +864,7 @@ body.custom-background {
 }
 
 #menu-utility-nav .menu-item-type-custom a {
-	background: url("assets/facebook.png") no-repeat;
+	background: url("facebook.png") no-repeat;
 	padding-left: 22px;
 }
 
@@ -1087,7 +1087,7 @@ body.custom-background {
 }
 
 .page .widget-wrapper {
-	background-image: url('assets/sidebar.png');
+	background-image: url('sidebar.png');
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }
@@ -1887,7 +1887,7 @@ table.cart td.actions .coupon .input-text {
 #footer {
 	font-size: 12px;
 	line-height: 1.5em;
-	padding-bottom: 10px;
+	padding-bottom: 60px;
 }
 
 #footer a {
@@ -2090,6 +2090,15 @@ BDO[DIR="rtl"] {
 	}
 
 @media screen and (max-width: 650px) {
+
+	#menu-main-nav {
+		display: flex;
+		justify-content: center;
+	}
+
+	.min-650 {
+		display: none;
+	}
 
     body {}
 
